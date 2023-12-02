@@ -131,12 +131,20 @@ main {
   line-height: 2rem;
   margin-top: 5rem;
 }
+.work-contact-link {
+  color: white;
+  text-decoration: none;
+}
+.work-contact-link:hover {
+  color: var(--orange);
+}
+
 /* Styles specific to the work page */
 .project-link a {
   display: inline-block;
   line-height: 1.8rem;
   padding: 0 10px;
-  margin: 5px 0;
+  margin: 8px 0;
   border-radius: 6px;
   text-decoration: none;
   transition: all 100ms ease-in-out;
@@ -149,7 +157,7 @@ main {
   background-color: white;
 }
 .custom-shadow {
-  box-shadow: 1px 1px 30px -9px rgba(255, 255, 255, 1);
+  box-shadow: 1px 1px 25px -10px rgba(255, 255, 255, 1);
 }
 /* Styles specific to the contact page */
 .contact-icons a {
@@ -222,18 +230,25 @@ footer {
     font-size: 2.5rem;
     line-height: 3rem;
   }
+  .project-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media (max-width: 768px) {
   #project {
     text-align: center;
-    font-size: 1rem;
-    line-height: 2rem;
     margin-top: 5rem;
   }
+
   .content h1 {
     font-size: 2.5rem;
     line-height: 3rem;
+  }
+  .content h3 {
+    color: var(--orange);
   }
 }
 
