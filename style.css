@@ -169,6 +169,7 @@ h2 {
 .img-responsive {
   width: 100%;
   display: block;
+  margin-top: 2rem;
 }
 .card {
   background: white;
@@ -180,7 +181,7 @@ h2 {
 }
 
 .card-body {
-  padding: 30px;
+  padding: 15px;
 }
 
 h4 {
@@ -195,7 +196,7 @@ h4 {
 #projects a {
   display: inline-block;
   line-height: 1.8rem;
-  padding: 0.4rem 0.8rem;
+  padding: 0.2rem 0.8rem;
   margin: 1.5rem 0;
   border-radius: 6px;
   text-decoration: none;
